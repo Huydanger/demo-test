@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(100deg, aqua, darkblue);
+}
+.main {
+    background: whitesmoke;
+    height: 400px;
+    width: 700px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    position: relative;
+}
+.user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.input {
+    height: 60px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#name {
+    width: 250px;
+    height: 25px;
+}
+#last {
+    width: 250px;
+    height: 25px;
+}
+#email {
+    width: 250px;
+    height: 25px;
+}
+#phone {
+    width: 250px;
+    height: 25px;
+}
+#pass {
+    width: 250px;
+    height: 25px;
+}
+#confirm {
+    width: 250px;
+    height: 25px;
+}
+#gender {
+    width: 250px;
+    height: 25px;
+}
+.button input{
+    position: relative;
+    height: 30px;
+    width: 400px;
+    outline: 0;
+    background: linear-gradient(100deg, aqua, darkblue);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    color: #fff;
+    border: #fff;
+    margin-left: 150px;
+    cursor: pointer;
+}
